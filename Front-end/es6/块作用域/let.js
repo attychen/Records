@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // 作用域 - 声明一个变量以后 在什么场合可以使用它
 // es5：全局作用域 函数作用域
@@ -16,3 +16,6 @@
 
 }
 console.log(a);
+
+
+// 打印结果 let.js:18 Uncaught ReferenceError: a is not defined
